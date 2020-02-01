@@ -1,14 +1,17 @@
 {
   "name": "@sagasphere/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility tools for the SagaSphere's services",
   "repository": "https://github.com/K0rdan/SagaSphere-Utils.git",
   "author": "K0rdan",
   "license": "MIT",
   "main": "src/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "./node_modules/.bin/babel -d bin src",
-    "dev": "./node_modules/.bin/babel -w -d bin src"
+    "build": "./node_modules/.bin/babel -d lib src",
+    "dev": "./node_modules/.bin/babel -w -d lib src"
   },
   "dependencies": {
     "chalk": "^3.0.0",
