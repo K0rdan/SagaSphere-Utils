@@ -1,0 +1,29 @@
+{
+  "name": "@sagasphere/utils",
+  "version": "0.0.1",
+  "description": "Utility tools for the SagaSphere's services",
+  "repository": "https://github.com/K0rdan/SagaSphere-Utils.git",
+  "author": "K0rdan",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel -d bin src",
+    "dev": "./node_modules/.bin/babel -w -d bin src"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "babel-plugin-dotenv-import": "^2.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^1.18.2"
+  }
+}
