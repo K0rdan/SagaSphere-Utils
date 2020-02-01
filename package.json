@@ -1,11 +1,11 @@
 {
   "name": "@sagasphere/utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility tools for the SagaSphere's services",
   "repository": "https://github.com/K0rdan/SagaSphere-Utils.git",
   "author": "K0rdan",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "files": [
     "lib"
   ],
